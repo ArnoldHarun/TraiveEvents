@@ -384,6 +384,44 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
 }
+.top-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px 0 40px;
+  background: rgba(255,255,255,0.0); /* transparent */
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 60px;
+  width: auto;
+  margin-right: 10px;
+}
+.site-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+.main-nav {
+  display: flex;
+  gap: 30px;
+}
+.main-nav a {
+  font-size: 1.3rem;
+  color: #111;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
 .slider {
   position: relative;
   width: 100%;
